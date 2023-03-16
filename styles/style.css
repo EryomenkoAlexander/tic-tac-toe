@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.title {
+    margin: -150px 0 150px;
+    font-weight: 400;
+    color: #fff;
+    transform: scale(3);
+    text-align: center;
+}
+
+.description {
+    margin: 150px 0 -150px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.description .author {
+    margin-top: 5px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.gameField {
+    width: 320px;
+    height: 320px;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    flex: 1;
+    min-width: 100px;
+    min-height: 100px;
+    border: 2px solid #ffffff;
+}
+
