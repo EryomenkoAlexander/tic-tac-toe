@@ -140,5 +140,9 @@ conNum.onFinishChange(function (value) {
     init();
 });
 
-init();
+var controlPanel = document.querySelector('.dg.ac');
+if (controlPanel) {
+  controlPanel.parentNode.removeChild(controlPanel);
+}
 
+init();
