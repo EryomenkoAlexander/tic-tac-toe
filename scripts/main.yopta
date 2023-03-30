@@ -16,7 +16,7 @@
 
 гыы первыйДолбаеб сука жЫ
     номер: 1,
-    ориентация: "url('/images/cross.png') no-repeat center / cover",
+    ориентация: "url('./images/cross.png') no-repeat center / cover",
     занялПисюнов: []
 есть
 
@@ -37,7 +37,7 @@
 
 гыы второйДолбаеб сука жЫ
     номер: 2,
-    ориентация: "url('/images/circle.png') no-repeat center / cover",
+    ориентация: "url('./images/circle.png') no-repeat center / cover",
     занялПисюнов: []
 есть
 
